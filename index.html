@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Midterm</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body style="background-image: url(https://i.pinimg.com/736x/15/d0/da/15d0dac034eb5f68c8599d59cc69bde3.jpg); background-size:100%">
+<div class="jumbotron text-center">
+<h1 style="font-family: Comic Sans MS; color:#fff">Travel Survey Form</h1>
+<p style="font-family: Comic Sans MS; color:#fff">Thank you for taking the time to response for a Survey about traveling</p>
+</div>
+
+<div class="row">
+
+<div class="col md-4">
+</div>
+
+<div class="col md-4" style="background-color: #C7EAFA">
+<form action=".php" id="surveyform" style="text-align:left; font-family:Comic Sans MS">
+<div class="form-group">
+<br>
+<label for="Inputname"><kbd>Name:</kbd></label><br><br>
+<input type="text" class="form-control" id="Inputname" placeholder="Enter your name">
+</div>
+<br>
+
+
+<div class="form-group">
+<label for="exampleInputEmail1"><kbd>Email address:</kbd></label>
+<br><br>
+<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+<small id="emailHelp" class="form-text text-muted" style="text-align:center">We'll never share your email with anyone else.</small>
+</div>
+
+<br>
+<div class="form-group">
+<label for="male"><kbd>Who is your gender?</kbd></label><br>
+<input type="radio" id="male" name="gender-male" value="Male">
+<label for="male"> Male</label><br>
+<input type="radio" id="female" name="gender-female" value="Female">
+<label for="female">Femail</label><br>
+</div>
+<br>
+
+
+<div class="form-group">
+<label for="Number"><kbd>Number</kbd></label>
+<br><br>
+<input type="number" class="form-control" id="Number" placeholder="Enter your number">
+</div>
+<br>
+
+<div class="form-group">
+<label for="country"><kbd>Which country would you like to visit?</kbd></label><br><br>
+<select id="country" name="country" class="form-control" style="text-align:center">
+<option value="please select">Please select</option>
+<option value="Canada">Canada</option>
+<option value="Japan">Japan</option>
+<option value="France">France</option>
+<option value="US">US</option>
+</select>
+</div>
+<br>
+
+<div class="form-group">
+<label for="status-label"><kbd>What is you employment status?</kbd></label><br><br>
+<select id="status-label" name="status" class="form-control" style="text-align:center">
+<option value="please select">Please select</option>
+<option value="Student">Student</option>
+<option value="Emp">Emplyed</option>
+<option value="Self-emp">Self-employed</option>
+<option value="Un-emp">Unemployed</option>
+<option value="Ret">Retired</option>
+<option value="Other">Other</option>
+</select>
+</div>
+<br>
+
+<div class="form-group">
+<label for="comments"><kbd>Any questions or comments?</kbd></label><br><br>
+<textarea name="comments" id="comments" placeholder="Enter your comments here..." class="form-control" style="width:617px; height:230px;">
+</textarea>
+</div>
+<br><br>
+
+<div class="form-group">
+<button type="submit" class="btn btn-primary form-control">Submit</button>
+</div>
+
+</form>
+</div>
+
+<div class="col md-4">
+</div>
+</div>
+
+</body>
+</html>
